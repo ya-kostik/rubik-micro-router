@@ -1,0 +1,26 @@
+{
+  "name": "rubik-micro-router",
+  "version": "1.0.0",
+  "description": "Simple router for rubik-micro",
+  "main": "MicroRouter.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ya-kostik/rubik-micro-router.git"
+  },
+  "author": "Constantin Tsukanov <c@indotech.ru>",
+  "license": "Apache-2.0",
+  "private": false,
+  "devDependencies": {
+    "eslint": "^8.1.0",
+    "jest": "^27.3.1",
+    "rubik-main": "^2.3.1",
+    "rubik-micro": "^1.5.1"
+  },
+  "peerDependencies": {
+    "rubik-main": "^2.3.1",
+    "rubik-micro": "^1.5.1"
+  },
+  "dependencies": {
+    "path-to-regexp": "^6.2.0"
+  }
+}
